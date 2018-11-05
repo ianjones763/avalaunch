@@ -16,7 +16,6 @@ public class GameControl : MonoBehaviour {
     public float skyScrollSpeed         = -0.05f;
     public float backgroundHorizontalLength = 20.48f;
 
-
     private int score = 0;
 
 	void Awake () 

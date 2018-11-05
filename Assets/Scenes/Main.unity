@@ -1169,6 +1169,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 400
+  growthRate: 0.01
+  maxSize: 3.22
+  minSize: 1
+  threshholdSpeed: 6.77
   isGrounded: 0
   groundLayers:
     serializedVersion: 2

@@ -41,12 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Sky
     uniqueID: 1830474125
     locked: 0
-  - name: Midground
+  - name: Background 4
+    uniqueID: 3871250019
+    locked: 0
+  - name: Background 3
     uniqueID: 1549423399
     locked: 0
-  - name: Foreground
+  - name: Background 2
     uniqueID: 3922112861
+    locked: 0
+  - name: Background 1
+    uniqueID: 1651005331
+    locked: 0
+  - name: Foreground
+    uniqueID: 4284137603
     locked: 0

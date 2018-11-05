@@ -8,7 +8,13 @@ public class GameControl : MonoBehaviour {
     public static GameControl instance;
     public GameObject gameOverText;
     public bool gameOver = false;
-    public float scrollSpeed = -1.5f;
+    public float scrollSpeed            = -1.5f;
+    public float background1ScrollSpeed = -1.2f;
+    public float background2ScrollSpeed = -0.9f;
+    public float background3ScrollSpeed = -0.4f;
+    public float background4ScrollSpeed = -0.2f;
+    public float skyScrollSpeed         = -0.1f;
+    public float backgroundHorizontalLength = 20.48f;
 
 
     private int score = 0;

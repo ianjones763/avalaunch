@@ -12,28 +12,26 @@ public class SnowballMovement : MonoBehaviour {
 	void Start () 
     {
         rb2d = GetComponent<Rigidbody2D>();
-	    
 	}
-	
-	void Update () 
+
+    void Update()
     {
         // Check if rolling backwards, if so you lose
-        //if (rb2d.velocity.x < 0) isDead = true;
-
+        //if (rb2d.velocity.x < 0) isDead = true
 
         if (!isDead)
         {
-            // Click to jump
-            // Need to add physics here?
-            if (Input.GetMouseButtonDown(0))
+            /* Need to add physics here */
+            if (Input.GetMouseButtonDown(0)) /* Click to jump */
             {
                 rb2d.AddForce(new Vector2(0, upForce));
             }
-        } else 
+        }
+        else
         {
             endGame();
         }
-	}
+    }
 
     void endGame() 
     {

@@ -38,6 +38,10 @@ public class SnowballMovement : MonoBehaviour {
             {
                 rb2d.AddForce(new Vector2(0, upForce));
             }
+
+            if (isGrounded) {
+                SoundManagerScript.PlaySound("snowballRoll");
+            }
         }
         else
         {

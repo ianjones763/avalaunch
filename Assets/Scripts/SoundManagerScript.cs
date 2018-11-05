@@ -11,6 +11,7 @@ public class SoundManagerScript : MonoBehaviour {
     {
         playerRollSound = Resources.Load<AudioClip>("snowballRoll");
         audioSrc = GetComponent<AudioSource>();
+        audioSrc.volume = 0.3f;
     }
 
     public static void PlaySound(string clip)
@@ -18,7 +19,10 @@ public class SoundManagerScript : MonoBehaviour {
         switch (clip)
         {
             case "snowballRoll":
-                audioSrc.PlayOneShot(playerRollSound);
+                if (!audioSrc.isPlaying) 
+                {
+                    audioSrc.PlayOneShot(playerRollSound);
+                }
                 break;
         }
     }

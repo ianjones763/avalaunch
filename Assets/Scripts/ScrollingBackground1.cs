@@ -14,6 +14,7 @@ public class ScrollingBackground1 : MonoBehaviour {
 
     void Update()
     {
+        rb2d.velocity = new Vector2(GameControl.instance.background1ScrollSpeed, 0);
         if (GameControl.instance.gameOver) rb2d.velocity = Vector2.zero;
     }
 }

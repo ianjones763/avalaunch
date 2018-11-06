@@ -4,16 +4,6 @@ using UnityEngine;
 
 public class RepeatingBackground : MonoBehaviour {
 
-    //private BoxCollider2D groundCollider;
-    //private float backgroundHorizontalLength;
-
-	void Start () 
-    {
-        //groundCollider = GetComponent<BoxCollider2D>();
-        //backgroundHorizontalLength = groundCollider.size.x;
-	}
-	
-
 	void Update () 
     {
         if (transform.position.x < -GameControl.instance.backgroundHorizontalLength)

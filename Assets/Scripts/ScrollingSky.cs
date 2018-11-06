@@ -14,6 +14,7 @@ public class ScrollingSky : MonoBehaviour {
 
     void Update()
     {
+        rb2d.velocity = new Vector2(GameControl.instance.skyScrollSpeed, 0);
         if (GameControl.instance.gameOver) rb2d.velocity = Vector2.zero;
     }
 }

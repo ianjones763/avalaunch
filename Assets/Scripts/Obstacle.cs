@@ -8,7 +8,16 @@ public class Obstacle : MonoBehaviour {
     {
         if (collision.gameObject.name == "snowball") 
         {
+            if (gameObject.tag == "igloo")
+            {
+                breakIgloo();
+            }
             GameControl.instance.Died();
         }
+    }
+
+    private void breakIgloo()
+    {
+        Debug.Log("break igloo");
     }
 }

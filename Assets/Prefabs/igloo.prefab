@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114177027734264934}
   m_Layer: 0
   m_Name: igloo
-  m_TagString: Untagged
+  m_TagString: igloo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1718483893
+  m_SortingLayerID: -10829693
   m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 747f2d6273b7c43d19b8e8c03acba615, type: 3}

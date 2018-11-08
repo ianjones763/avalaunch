@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - igloo
+  - tree
   layers:
   - Default
   - TransparentFX
@@ -56,9 +58,9 @@ TagManager:
   - name: Background 1
     uniqueID: 1651005331
     locked: 0
-  - name: Foreground
-    uniqueID: 4284137603
-    locked: 0
   - name: Player
     uniqueID: 1718483893
+    locked: 0
+  - name: Foreground
+    uniqueID: 4284137603
     locked: 0

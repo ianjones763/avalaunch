@@ -12,17 +12,21 @@ public class GameControl : MonoBehaviour {
     public Text scoreText;
     public bool gameOver = false;
 
+    public float size;
+    public float maxSize = 5f;
+    public float minSize = 0.5f;
+
     // Calculate score based off time played
     private float start_time;
     private int score = 0;
 
     // Scrolling speed
-    public float foregroundScrollSpeed      = -1.5f;
-    public float background1ScrollSpeed     = -1.0f;
-    public float background2ScrollSpeed     = -0.5f;
-    public float background3ScrollSpeed     = -0.2f;
-    public float background4ScrollSpeed     = -0.1f;
-    public float skyScrollSpeed             = -0.05f;
+    public float foregroundScrollSpeed      = -1.0f;
+    public float background1ScrollSpeed     = -2f/3f;
+    public float background2ScrollSpeed     = -1f/6f;
+    public float background3ScrollSpeed     = -1f/12f;
+    public float background4ScrollSpeed     = -1f/24f;
+    public float skyScrollSpeed             = -1f/48f;
 
     // Width of .png sprites for backgrounds = 2048px
     public float backgroundHorizontalLength = 20.48f;

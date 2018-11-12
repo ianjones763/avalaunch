@@ -21,7 +21,8 @@ public class GameControl : MonoBehaviour {
     private int score = 0;
 
     // Scrolling speed
-    public float foregroundScrollSpeed      = -1.0f;
+    public float foregroundXScrollSpeed     = -1.0f;
+    public float foregroundYScrollSpeed     = 1.0f;
     public float background1ScrollSpeed     = -2f/3f;
     public float background2ScrollSpeed     = -1f/6f;
     public float background3ScrollSpeed     = -1f/12f;

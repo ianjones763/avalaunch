@@ -68,7 +68,7 @@ public class SnowballMovement : MonoBehaviour {
     {
         GameControl.instance.size = sizeVec.x;
         float exp = 5.0f / 3.0f;
-        GameControl.instance.foregroundScrollSpeed = -Mathf.Pow(GameControl.instance.size, exp);
+        GameControl.instance.foregroundXScrollSpeed = -Mathf.Pow(GameControl.instance.size, exp);
         GameControl.instance.background1ScrollSpeed = -Mathf.Pow(GameControl.instance.size, exp) * 2f/3f;
         GameControl.instance.background2ScrollSpeed = -Mathf.Pow(GameControl.instance.size, exp) * 1f/6f;
         GameControl.instance.background3ScrollSpeed = -Mathf.Pow(GameControl.instance.size, exp) * 1f/12f;

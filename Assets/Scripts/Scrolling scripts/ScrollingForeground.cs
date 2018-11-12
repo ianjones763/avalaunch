@@ -9,12 +9,12 @@ public class ScrollingForeground: MonoBehaviour {
 	void Start() 
     {
         rb2d = GetComponent<Rigidbody2D>();
-        rb2d.velocity = new Vector2(GameControl.instance.foregroundScrollSpeed, 0);
+        rb2d.velocity = new Vector2(GameControl.instance.foregroundXScrollSpeed, GameControl.instance.foregroundYScrollSpeed);
 	}
 
 	void Update() 
     {
-        rb2d.velocity = new Vector2(GameControl.instance.foregroundScrollSpeed, 0);
+        rb2d.velocity = new Vector2(GameControl.instance.foregroundXScrollSpeed, GameControl.instance.foregroundYScrollSpeed);
         if (GameControl.instance.gameOver) rb2d.velocity = Vector2.zero;
     }
 }

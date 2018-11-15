@@ -16,11 +16,14 @@ public class GameControl : MonoBehaviour {
     public float maxSize = 5f;
     public float minSize = 0.5f;
 
+    public Vector2 norm;
+
     // Calculate score based off time played
     private float start_time;
     private int score = 0;
 
     // Scrolling speed
+    public float scrollSpeed                = 2.0f;
     public float foregroundXScrollSpeed     = -1.0f;
     public float foregroundYScrollSpeed     = 1.0f;
     public float background1ScrollSpeed     = -2f/3f;
